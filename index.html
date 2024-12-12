@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Санау жүйелерінің конвертері</title>
+    <link rel="stylesheet" type="text/css" href="styleses.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Санау жүйелерін айналдыру</h1>
+        <div>
+            <label>Санды енгізіңіз:</label>
+            <input type="text" id="inputNumber" placeholder="Мысалы: 1010 немесе 255">
+        </div>
+        <div>
+            <button onclick="convert(1)">Ондық жүйеден - екілікке</button>
+            <button onclick="convert(2)">Ондық жүйеден - сегіздікке</button>
+            <button onclick="convert(3)">Ондық жүйеден - он алтылыққа</button>
+            <button onclick="convert(4)">Екілік жүйеден - ондыққа</button>
+            <button onclick="convert(5)">Сегіздік жүйеден - ондыққа</button>
+            <button onclick="convert(6)">Он алтылық жүйеден - ондыққа</button>
+        </div>
+        <div class="result" id="result"> <i>Нәтиже осында көрсетіледі</i></div>
+        <p>&copy; 2024 Daryn | Prog</p>
+    </div>
+
+    <div class="bottom-button-container">
+            <span >
+            <form action="https://darynprog.github.io/sanay-zh/">
+                <input type="submit" class="button-link" value="Математикалық амалдар қолдану">
+            </form>
+            </span>
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

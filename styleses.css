@@ -1,0 +1,96 @@
+/* Жалпы дененің стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    color: #333;
+}
+
+/* Контейнер стилі */
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    font-size: 16px;
+    color: white;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+}
+
+.button-link {
+    display: inline-block;
+    background-color: #304ef8;
+    color: white;
+    padding: 12px 24px; /* Кнопканың ішіндегі аралық */
+    font-size: 16px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: fixed;
+    bottom: 2px; /* Төменгі жағына жақын орналастыру */
+    left: 50%; /* Ортаға қою */
+    transform: translateX(-50%); /* Нақты орталау */
+    margin-bottom: 20px; /* Төменнен қосымша аралық */
+}
+
+.button-link:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
